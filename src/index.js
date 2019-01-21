@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './component/App';
 import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './component/Auth/Login';
 import Register from './component/Auth/Register';
+
+import 'semantic-ui-css/semantic.min.css';
 
 const Root = () => {
   return (

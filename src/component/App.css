@@ -1,3 +1,7 @@
+html,
+.app,
 body {
-  background-color: whitesmoke;
+  height: 100vh;
+  padding: 1em;
+  background: whitesmoke;
 }
